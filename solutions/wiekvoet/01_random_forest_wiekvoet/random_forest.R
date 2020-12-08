@@ -1,4 +1,5 @@
 # https://wiekvoet.blogspot.com/2015/07/predicting-titanic-deaths-on-kaggle.html
+# https://towardsdatascience.com/random-forest-in-r-f66adf80ec9
 
 library(tidyverse)
 library(dplyr)
@@ -6,7 +7,7 @@ library(randomForest)
 library(lattice)
 options(width=85)
 
-training_data = read.csv('../input/train.csv', stringsAsFactors = TRUE)
+training_data = read.csv('../input/train.csv', stringsAsFactors = TRUE) # unused
 # head(read.csv('../input/train.csv'))
 
 ## Training Data ####
