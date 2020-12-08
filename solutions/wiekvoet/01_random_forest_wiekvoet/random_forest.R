@@ -6,12 +6,12 @@ library(randomForest)
 library(lattice)
 options(width=85)
 
-train = read.csv('../input/train.csv')
-head(read.csv('../input/train.csv'))
+training_data = read.csv('../input/train.csv', stringsAsFactors = TRUE)
+# head(read.csv('../input/train.csv'))
 
 ## Training Data ####
 
-titanic <- read.csv('../input/train.csv') %>%
+titanic <- read.csv('../input/train.csv', stringsAsFactors = TRUE) %>%
   mutate(., Pclass = factor(Pclass),
          Survived = factor(Survived),
          age = ifelse(is.na(Age),35,Age),
@@ -29,7 +29,7 @@ titanic <- read.csv('../input/train.csv') %>%
 
 ## Test Data ####
 
-test <- read.csv('../input/test.csv') %>%
+test <- read.csv('../input/test.csv', stringsAsFactors = TRUE) %>%
   mutate(.,Pclass=factor(Pclass),
          age=ifelse(is.na(Age),35,Age),
          age = cut(age,c(0,2,5,9,12,15,21,55,65,100)),
