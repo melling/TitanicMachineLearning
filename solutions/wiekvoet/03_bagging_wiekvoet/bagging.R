@@ -2,6 +2,7 @@
 
 # https://wiekvoet.blogspot.com/2015/08/predicting-titanic-deaths-on-kaggle-iii.html
 
+
 #install.packages("ipred")
 library(ipred)
 library(rpart)
@@ -46,6 +47,8 @@ forage <- tt[!is.na(tt$Age) & tt$status=='train',names(tt) %in%
                  'Parch','Fare','Title','Embarked','A','B','C','D','E','F',
                  'ncabin','PC','STON','oe')]
 
+print("Prediction #1")
+
 ipbag1 <- bagging(Age ~.,data=forage)
 ipbag1
 
@@ -58,8 +61,12 @@ titanic <- tt[tt$status=="train",]
 
 di1 <- subset(titanic,select=c(
   age,SibSp,Parch,Fare,Sex,Pclass,
-  Title,Embarked,A,B,C,D,E,F,ncabin,PC,STON,oe,AGE,Survived))
+  Title,Embarked,A,B,C,D,E,F,ncabin,PC,STON,oe,age,Survived))
+
 dso <- expand.grid(ns=seq(100,300,25),nbagg=c(500),minsplit=1:6)
+
+# This takes a while to run
+
 la <- lapply(1:nrow(dso),function(ii) {
   ee <-    errorest(Survived ~ .,
                     ns=dso$ns[ii],
@@ -78,17 +85,20 @@ las <- do.call(rbind,la)
 las <- as.data.frame(las)
 xyplot(error ~ ns, groups= minsplit, data=las,auto.key=TRUE,type='l')
 
+print("Prediction #2")
+
 bagmod <- bagging(Survived ~.,ns=275,nbagg=500,
                   control=rpart.control(minsplit=5, cp=0, xval=0,maxsurrogate=0),
                   data=di1)
+
 
 pp <- predict(bagmod,test)
 
 out <- data.frame(
   PassengerId=test$PassengerId,
   Survived=pp,row.names=NULL)
+
 write.csv(x=out,
           file='bag8aug.csv',
           row.names=FALSE,
           quote=FALSE)
-
