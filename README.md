@@ -5,6 +5,7 @@
 ### Random Forest
 
 - https://github.com/melling/TitanicMachineLearning/tree/main/solutions/wiekvoet/01_random_forest_wiekvoet
+- https://github.com/melling/TitanicMachineLearning/tree/main/solutions/wiekvoet/04_random_forest_revisted_wiekvoet
 
 ### Bagging
 
