@@ -2,6 +2,10 @@
 
 ## R Language
 
+### Logistic Regression
+
+- https://github.com/Robby955/Titanic
+
 ### Random Forest
 
 - https://github.com/melling/TitanicMachineLearning/tree/main/solutions/wiekvoet/01_random_forest_wiekvoet
