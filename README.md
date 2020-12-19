@@ -1,4 +1,23 @@
-# Titanic Tidyverse
+# Titanic Machine Learning
+
+## R Language
+
+### Random Forest
+
+- https://github.com/melling/TitanicMachineLearning/tree/main/solutions/wiekvoet/01_random_forest_wiekvoet
+
+### Bagging
+
+- https://github.com/melling/TitanicMachineLearning/tree/main/solutions/wiekvoet/03_bagging_wiekvoet
+
+### Bayesian
+
+
+## Python
+
+
+
+## Tidyverse
 
 Analyze the Kaggle Titanic Data with the R Tidyverse
 
