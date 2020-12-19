@@ -17,7 +17,7 @@ Feel free to correct me on anything or offer suggestions.
 install.packages("tidyverse")
 install.packages("randomForest")
 install.packages("skimr")
-install.packages("Prophet")"
+install.packages("Prophet")
 install.packages("forecast")
 install.packages("scales")"
 
