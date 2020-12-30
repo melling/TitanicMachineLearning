@@ -107,6 +107,11 @@ fitControl <- trainControl(method = "cv", #We will do 5 cross validation to impr
                            number = 5)
 
 
+#Other models we can try but gave lower accuracy, K-Nearest Neighbour, Random Forset and Desici
+
+#model_titanic3=caret::train(Survived~.,data=training,method='knn',trControl=fitControl)
+#model_titanic4=caret::train(Survived~.,data=titanic,method='rf',trControl=fitControl) #model_titanic5=caret::train(Survived~.,data=titanic,method='rpart',trControl=fitControl)
+
 
 model_titanic_logistic=caret::train(Survived~.,data=titanic.n,method='glm',
                                     family='binomial',trControl=fitControl) 
