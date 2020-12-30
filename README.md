@@ -80,6 +80,7 @@ https://github.com/Robby955/Titanic/blob/master/titanic.R
 - https://www.tidyverse.org
 
 ## R-Bloggers
+
 - https://www.r-bloggers.com/2016/02/titanic-machine-learning-from-disaster-part-1/
 - https://www.r-bloggers.com/2017/12/getting-started-with-dplyr-in-r-using-titanic-dataset/
 - https://www.r-bloggers.com/2015/10/predicting-titanic-deaths-on-kaggle-vii-more-stan/
