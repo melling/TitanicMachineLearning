@@ -34,6 +34,7 @@
 - https://www.ritchieng.com/machine-learning-project-titanic-survival/
 - https://www.kdnuggets.com/2016/07/titanic-machine-learning-guide-part-1.html
 - https://youtu.be/fS70iptz-XU
+   - https://github.com/Arkham/jack-dies
 - https://www.codementor.io/@innat_2k14/titanic-kaggle-machine-learning-from-disaster-part-1-10gbvqzguc
 - http://www.caprinomics.com/projects/titanic/
 - https://www.linkedin.com/pulse/how-i-scored-80-predicting-titanic-survivors-diogo-dutra
@@ -54,7 +55,8 @@
 - https://datascience.netlify.app/general/2017/07/20/data_science_9.html
 - https://www.stefanfiott.com/data-science/titanic-survival-prediction/
 - https://youtu.be/rODWw2_1mCI
-   - https://github.com/Arkham/jack-dies
+   - https://medium.com/better-programming/titanic-survival-prediction-using-machine-learning-4c5ff1e3fa16
+
 
 ## Misc
 
