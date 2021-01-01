@@ -53,8 +53,7 @@
 - http://jennhwang.me/blog/titanic/
 - https://datascience.netlify.app/general/2017/07/20/data_science_9.html
 - https://www.stefanfiott.com/data-science/titanic-survival-prediction/
-
-
+- https://youtu.be/rODWw2_1mCI
 
 
 ## Misc
