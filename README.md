@@ -19,6 +19,7 @@
 
 ### Misc
 
+- https://www.kaggle.com/pliptor/how-am-i-doing-with-my-score - Excellent Notebook with scores for dozens of solutions
 - https://rpubs.com/JamesENelson/153826
 - https://tylerburleigh.com/blog/surviving-the-titanic-with-r-caret/
 - https://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/
