@@ -28,6 +28,7 @@
 
 ### Misc
 
+- https://rstudio-pubs-static.s3.amazonaws.com/143316_106d643df86c4e4c8ae20e9775ab0ec7.html
 - https://www.kaggle.com/pliptor/how-am-i-doing-with-my-score - Excellent Notebook with scores for dozens of solutions
 - https://rpubs.com/JamesENelson/153826
 - https://tylerburleigh.com/blog/surviving-the-titanic-with-r-caret/
