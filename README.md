@@ -6,6 +6,10 @@
 
 - https://github.com/Robby955/Titanic
 
+### Decision Trees
+
+- https://www.r-bloggers.com/2016/02/titanic-machine-learning-from-disaster-part-1/
+
 ### Random Forest
 
 - https://github.com/melling/TitanicMachineLearning/tree/main/solutions/wiekvoet/01_random_forest_wiekvoet
@@ -18,6 +22,7 @@
 ### Deep Learning
 
 - https://www.r-bloggers.com/2020/05/deep-learning-model-for-titanic-data/
+
 
 ### Bayesian
 
