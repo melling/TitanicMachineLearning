@@ -15,6 +15,10 @@
 
 - https://github.com/melling/TitanicMachineLearning/tree/main/solutions/wiekvoet/03_bagging_wiekvoet
 
+### Deep Learning
+
+- https://www.r-bloggers.com/2020/05/deep-learning-model-for-titanic-data/
+
 ### Bayesian
 
 ### Misc
