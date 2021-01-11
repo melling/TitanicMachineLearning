@@ -5,6 +5,7 @@
 ### Logistic Regression
 
 - https://github.com/Robby955/Titanic
+- https://www.r-bloggers.com/2021/01/machine-learning-with-r-a-complete-guide-to-logistic-regression/
 
 ### Decision Trees
 
